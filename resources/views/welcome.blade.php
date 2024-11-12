@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fale com Michael Scott</title>
 
-    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/welcome.css">
 </head>
 <body>
     <div class="main-container">
@@ -17,12 +17,14 @@
 
         <div class="container login-container">
             <h2>Login</h2>
-            
+
             <form>
                 <input type="text" placeholder="Usuário" required>
                 <input type="password" placeholder="Senha" required>
                 <button type="submit">Entrar</button>
             </form>
+
+            <a href="chat">GO_CHAT</a>
         </div>
     </div>
 </body>

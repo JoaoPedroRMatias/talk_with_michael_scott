@@ -9,26 +9,26 @@ Technologies Used:
 
 > **Autor**: João Pedro Rodrigues Matias | <joaopedrord2001@gmail.com>
 
-## Estrutura
+## Structure
 
 ```bash
-├── app                       # Contém o código principal da aplicação, incluindo Models, Controllers e Services
-│   ├── Http                  # Controladores, Middlewares e Requests HTTP
-│   └── Models                # Modelos Eloquent
-├── config                    # Configurações do aplicativo (banco de dados, mail, cache, etc.)
-├── public                    # Diretório público, onde ficam os arquivos acessíveis externamente
-├── resources                 # Recursos como views, assets e arquivos de tradução
-│   ├── js                    # Arquivos JavaScript
-│   └── views                 # Views Blade do Laravel
-├── routes                    # Arquivos de rotas da aplicação
-│   ├── api.php               # Rotas de API
-│   └── web.php               # Rotas da web
-├── vendor                    # Dependências do Composer
-├── .env                      # Arquivo de configuração de ambiente
-├── artisan                   # CLI do Laravel para comandos Artisan
-├── composer.json             # Dependências PHP do projeto
-├── package.json              # Dependências Node.js do projeto
-└── webpack.mix.js            # Configuração do Laravel Mix para compilação de assets
+├── app                       # Contains the main application code, including Models, Controllers, and Services
+│   ├── Http                  # Controllers, Middlewares, and HTTP Requests
+│   └── Models                # Eloquent Models
+├── config                    # Application configurations (database, mail, cache, etc.)
+├── public                    # Public directory where externally accessible files are located
+├── resources                 # Resources such as views, assets, and translation files
+│   ├── js                    # JavaScript files
+│   └── views                 # Laravel Blade views
+├── routes                    # Application route files
+│   ├── api.php               # API routes
+│   └── web.php               # Web routes
+├── vendor                    # Composer dependencies
+├── .env                      # Environment configuration file
+├── artisan                   # Laravel CLI for Artisan commands
+├── composer.json             # Project's PHP dependencies
+├── package.json              # Project's Node.js dependencies
+└── webpack.mix.js            # Laravel Mix configuration for asset compilation
 ```
 
 ## How the "Talk with Michael Scott" Project Works
